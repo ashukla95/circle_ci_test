@@ -8,12 +8,16 @@
         ],
         "sourceMap": true,
         "module": "CommonJS",
-        "target": "es6",
+        "target": "es5",
         "allowJs": true,
         "types": [
             "mocha"
         ],
-        "baseUrl": "types"
+        "baseUrl": "types",
+        "lib": [
+            "es5",
+            "es6"
+        ]
     },
     "include": [
         "**/*.ts"
