@@ -1,0 +1,42 @@
+{
+  "suites": {
+    "title": "root",
+    "fullTitle": "root",
+    "suites": [
+      {
+        "title": "add function test suite: ",
+        "fullTitle": "add function test suite: ",
+        "suites": [],
+        "tests": [
+          {
+            "title": "returns 5 for 2+3: ",
+            "fullTitle": "add function test suite:  returns 5 for 2+3: ",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "5 != 4",
+            "fullTitle": "add function test suite:  5 != 4",
+            "status": "PASS",
+            "error": null
+          }
+        ],
+        "pass": 2,
+        "fail": 0
+      }
+    ],
+    "tests": [],
+    "pass": 0,
+    "fail": 0
+  },
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-11-11T04:57:04.309Z",
+    "end": "2020-11-11T04:57:04.313Z",
+    "duration": 4
+  }
+}
