@@ -19,9 +19,15 @@
             "fullTitle": "add function test suite:  5 != 4",
             "status": "PASS",
             "error": null
+          },
+          {
+            "title": "has one extra assertion",
+            "fullTitle": "add function test suite:  has one extra assertion",
+            "status": "PASS",
+            "error": null
           }
         ],
-        "pass": 2,
+        "pass": 3,
         "fail": 0
       }
     ],
@@ -31,12 +37,12 @@
   },
   "stats": {
     "suites": 1,
-    "tests": 2,
-    "passes": 2,
+    "tests": 3,
+    "passes": 3,
     "pending": 0,
     "failures": 0,
-    "start": "2020-11-11T17:03:31.209Z",
-    "end": "2020-11-11T17:03:31.214Z",
+    "start": "2020-11-11T17:09:12.266Z",
+    "end": "2020-11-11T17:09:12.271Z",
     "duration": 5
   }
 }
