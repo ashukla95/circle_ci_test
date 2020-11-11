@@ -1,0 +1,4 @@
+# test/mocha.opts
+--require ./node_modules/ts-node/register
+--recursive
+--exit

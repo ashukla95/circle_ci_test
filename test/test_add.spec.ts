@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import add from "../addition/add";
+import { add } from "../addition/add";
 
 
 describe("add function test suite: ", function () {
