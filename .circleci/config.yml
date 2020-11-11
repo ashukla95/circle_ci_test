@@ -10,7 +10,10 @@ jobs:
 
     steps:
       - checkout
-      - run: sudo npm install -g --save
+      - run: sudo npm cahce clean --force
+      - run: sudo rm -rf package-lock.json
+      - run: sudo npm install -g
+      - run: sudo chmod -R a+rwx ./node_modules
       - run: sudo npm test
 
 workflows:
