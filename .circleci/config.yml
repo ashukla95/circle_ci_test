@@ -12,3 +12,9 @@ jobs:
       - checkout
       - run: sudo npm install -g --save
       - run: sudo npm test
+
+workflows:
+  matrix-tests:
+    jobs:
+      - node/test:
+          version: 12.18.3
