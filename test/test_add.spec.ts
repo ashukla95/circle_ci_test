@@ -1,14 +1,18 @@
-import * as chai from "chai";
+import { expect } from "chai";
 
-import * as add from "../addition/add";
+import { add } from "../addition/add";
 
 
 describe("add function test suite: ", function () {
     it("returns 5 for 2+3: ", function () {
-        chai.expect(add.add(2, 3)).to.equal(5);
+        expect(add(2, 3)).to.equal(5);
     });
 
     it("5 != 4", function () {
-        chai.expect(add.add(2, 3)).to.not.equal(4);
+        expect(add(2, 3)).to.not.equal(4);
+    })
+
+    it("has one extra assertion", function () {
+        expect(1).to.deep.equal(1);
     })
 })
