@@ -1,15 +1,15 @@
 orbs: # declare what orbs we are going to use
+  win: circleci/windows@2.2.0
   node: circleci/node@2.0.2 # the node orb provides common node-related configuration
 
 version: 2.1 # using 2.1 provides access to orbs and other features
 
 jobs:
   build:
-    docker:
-      - image: circleci/node@12.18.3
+    executor: win/default
+
     steps:
       - checkout
-      - run: sudo rm -rf node_modules
       - run: npm install --save
       - run: npm test
 
