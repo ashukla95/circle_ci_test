@@ -11,6 +11,7 @@
   "dependencies": {
     "@types/chai": "^4.2.14",
     "@types/mocha": "^8.0.4",
+    "bcrypt": "^5.0.0",
     "chai": "^4.2.0",
     "mocha": "^8.2.1",
     "ts-mocha": "^8.0.0",
